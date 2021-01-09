@@ -24,11 +24,11 @@ export class Footer extends Component<FooterProps, FooterState> {
               <span class="navbar-text">{this.props.site.version}</span>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/modlog">
-                {i18n.t('modlog')}
+              <Link className="nav-link" to="https://ytecongcong.com">
+                {i18n.t('ytcc')}
               </Link>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <Link className="nav-link" to="/instances">
                 {i18n.t('instances')}
               </Link>
@@ -47,7 +47,7 @@ export class Footer extends Component<FooterProps, FooterState> {
               <a className="nav-link" href={joinLemmyUrl}>
                 {i18n.t('join_lemmy')}
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
